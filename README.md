@@ -2,6 +2,8 @@
 
 Tenha acesso as melhores promoções das lojas mais próximas de você!
 
+Dê uma olhada: https://quackclub.vercel.app/
+
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.

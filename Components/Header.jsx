@@ -29,11 +29,11 @@ function Header(props) {
 
                         {showModal ?
                             <div className="fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-75">
-                                <div className="bg-white p-4 rounded-md">
-                                    <div className="flex flex-col justify-center items-center">
+                                <div className="bg-white p-4 rounded-md ">
+                                    <div className="flex flex-col justify-center items-center ">
                                         <QRCode value="https://www.example.com" size={200} />
 
-                                        <button onClick={() => setShowModal(false)}>Fechar</button>
+                                        <button onClick={() => setShowModal(false)} className='mt-4 text-Primary'>Fechar</button>
 
                                     </div>
                                 </div>
@@ -57,11 +57,11 @@ function Header(props) {
                         {/*MODAL PESQUISA */}
 
                         {ShowQuery ?
-                            <div className="fixed inset-0 flex items-center justify-center bg-white ">
-                                <div className="bg-white p-4 rounded-md">
-                                    <div className="flex flex-col justify-center items-center">
-                                        <label htmlFor="">Pesquise o que você deseja</label>
-                                        <input type="text" className='border-b border-solid border-black text-center mt-2 focus:outline-none' />
+                            <div className="w-full fixed inset-0 flex items-center justify-center bg-white ">
+                                <div className="w-full bg-white p-4 rounded-md">
+                                    <div className="w-full  flex flex-col justify-center items-center">
+                                        <label htmlFor="">Pesquise o que <spa className='text-Primary'>você deseja</spa></label>
+                                        <input type="text" className='border-b border-solid w-1/2 border-black text-center mt-2 focus:outline-none' />
 
                                     </div>
                                     <button className='fixed top-3 right-3' onClick={() => setShowquery(false)}>Fechar</button>

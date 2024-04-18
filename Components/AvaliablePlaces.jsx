@@ -41,6 +41,8 @@ function AvaliablePlaces(props) {
     return (
         <>
 
+
+            {/*SESSÃO DE ESTABELECIMENETOS DISPONÍVEIS*/}
             <section className={`${poppins400.className} p-5 `}
             >
                 <h1 className='w-fit border-b border-solid border-Primary text-[15px] '>Estabelecimentos disponíveis no <span className='text-Primary font-semibold'>Clube Quack</span></h1>

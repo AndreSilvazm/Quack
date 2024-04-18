@@ -5,6 +5,7 @@ import OurPartnes from "@/Components/OurPartnes";
 import AvaliablePlaces from "@/Components/AvaliablePlaces";
 import Footer from "@/Components/Footer";
 import Head from "next/head";
+import OurPlans from "@/Components/OurPlans";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Header />
       <FirstCarousel />
       <OurServices />
+      <OurPlans/>
       <OurPartnes />
       <AvaliablePlaces />
       <Footer />

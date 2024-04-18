@@ -1,5 +1,5 @@
 import React from 'react';
-import { Inter, Poppins } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
 
 const poppins400 = Poppins({
@@ -10,7 +10,7 @@ const poppins400 = Poppins({
 
 function OurServices(props) {
 
-    
+
     return (
         <>
 
@@ -51,10 +51,11 @@ function OurServices(props) {
 
                         <div className='bg-[#CBA4FE] h-[85px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg overflow-hidden flex justify-center items-baseline' >
 
-                            <img src="https://i.ibb.co/Z2p0Qh5/capture-20240417-133911-removebg-preview.png" alt="" className='h-24'/>
+                            <img src="https://i.ibb.co/Z2p0Qh5/capture-20240417-133911-removebg-preview.png" alt="" className='h-24' />
 
                         </div>
                         <div className='text-center bg-white rounded-b-md shadow-lg'>
+
                             <h1 className='text-sm'>Turismo</h1>
                         </div>
 
@@ -64,9 +65,9 @@ function OurServices(props) {
                     <div>
 
 
-                        <div className='bg-[#FFD9D9] h-[85px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg overflow-hidden relative '>
+                        <div className='bg-[#FFD9D9] h-[85px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg overflow-hidden relative md:flex md:justify-center items-center '>
 
-                            <img src="https://i.ibb.co/zx9MDS3/Sacolas-removebg-preview.png" className='absolute bottom-0' alt="" />
+                            <img src="https://i.ibb.co/zx9MDS3/Sacolas-removebg-preview.png" className='absolute bottom-0 h-24' alt="" />
 
                         </div>
                         <div className='text-center bg-white rounded-b-md shadow-lg' >
@@ -81,7 +82,9 @@ function OurServices(props) {
                     <div>
 
 
-                        <div className='bg-[#D9FFFA] h-[85px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg overflow-hidden flex justify-center '>
+                        <div className='bg-[#D9FFFA] h-[85px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg overflow-hidden flex justify-center relative md:flex md:justify-center items-center '>
+
+                            <img src="https://cdn.pixabay.com/photo/2019/10/19/17/17/circus-stage-4561815_640.png" className='absolute -bottom-4 h-24' alt="" />
 
                         </div>
                         <div className='text-center bg-white rounded-b-md shadow-lg' >
@@ -99,7 +102,7 @@ function OurServices(props) {
 
                             <h1 className='text-[12px] text-white font-bold sm:text-sm md:text-lg'>Seu quack</h1>
 
-                            <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className=' w-[40px] scale-125 absolute bottom-0 -right-1 md:w-[50px]  '/>
+                            <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className=' w-[40px] scale-125 absolute bottom-0 -right-1 md:w-[50px]  ' />
 
                         </div>
                         <div className='text-center bg-white rounded-b-md	shadow-xl'>
@@ -126,7 +129,7 @@ function OurServices(props) {
 
                 </div>
 
-                <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className='scale-110 w-[100px] '/>
+                <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className='scale-110 w-[100px] ' />
 
                 <div className='text-center'>
 

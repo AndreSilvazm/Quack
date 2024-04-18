@@ -1,14 +1,11 @@
 import React from 'react';
 import { useEffect, useState, useRef } from 'react'
-import { LegacyRef } from 'react';
-import Link from 'next/link';
 import { motion } from 'framer-motion'
-import img1 from '@/public/Assests/img1Slider.jpg'
 
 
 function FirstCarousel(props) {
 
-    const carousel = useRef (null); // Defina diretamente o tipo da ref como HTMLDivElement
+    const carousel = useRef (null); 
     const [width, setWidth] = useState (0);
 
     //CALCULANDO O TAMANHO DA TELA
@@ -34,7 +31,7 @@ function FirstCarousel(props) {
 
                 <section >
 
-                    <article className="w-full   flex justify-center flex-col mt-20 mb-3  md:items-center ">
+                    <article className="w-full   flex justify-center flex-col mt-20 mb-3 ">
 
                         <motion.div ref={carousel} whileTap={{ cursor: "pointer" }}>
 

@@ -28,3 +28,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.border-tl-wave {
+  border-top-left-radius: 10% 90%;
+  border-bottom-left-radius: 10% 90%;
+}

@@ -99,14 +99,14 @@ function OurServices(props) {
                     <div>
 
 
-                        <div className='bg-Primary h-[82px] max-h-[150px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg   relative overflow-hidden '>
+                        <div className='bg-Primary h-[82px] max-h-[150px] rounded-bl-none rounded-br-none rounded-tl-lg rounded-tr-lg   relative '>
 
                             <h1 className='text-[12px] text-white font-bold sm:text-sm md:text-lg'>Seu quack</h1>
 
                             <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className=' w-[40px] scale-125 absolute bottom-0 -right-1 md:w-[50px]  ' />
 
                         </div>
-                        <div className='text-center bg-white rounded-b-md	shadow-xl'>
+                        <div className='text-center bg-white rounded-b-md z-20	shadow-xl'>
                             <h1 className='text-sm'>Quack+</h1>
                         </div>
 

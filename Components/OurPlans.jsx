@@ -12,9 +12,9 @@ function OurPlans(props) {
         <>
 
             {/*Sessão de assinatura de planos*/}
-            <section className={`${poppins400.className} bg-[#FFA518] text-white h-[155px] max-h-[155px] m-2 rounded-md mt-6 flex flex-row items-center justify-evenly shadow-xl`}>
+            <section className={`${poppins400.className}w-[90%] bg-Primary text-white h-[155px] max-h-[155px] m-2 rounded-md mt-6 flex flex-row shadow-xl`}>
 
-                <div className=' w-[148px] '>
+                <div className=' w-1/2 h-full flex flex-col justify-center items-start bg-Primary relative p-2'>
 
                     <span className='text-[12px] sm:text-sm md:text-lg'>Assine já o</span>
 
@@ -22,14 +22,19 @@ function OurPlans(props) {
 
                     <p className='text-[12px]'>E tenha acesso em dobro as experiências</p>
 
+                    <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className='scale-110 w-[100px] absolute  z-20 -right-9'/>
+
                 </div>
 
-                <img src="https://i.ibb.co/5TD81qs/capture-20240417-003504-removebg-preview.png" alt="" className='scale-110 w-[100px] ' />
 
-                <div className='text-center'>
 
-                    <h1 className='text-[15px] font-bold sm:text-xl md:text-xl2'>R$ 299,99</h1>
-                    <button className='bg-Primary text-white text-[8px] rounded-lg p-1 sm:text-sm md:text-sm'>Clique aqui e assine</button>
+                <div className='bg-Secondary w-1/2 h-full flex justify-center flex-col items-end rounded-sm border-tl-wave'>
+                    <div className='w-5/6 text-center '>
+
+                        <h1 className='text-[15px] font-bold sm:text-xl md:text-xl2'>R$ 299,99</h1>
+                        <button className='bg-Primary text-white w-1/2 text-[8px] rounded-lg p-1 sm:text-sm md:text-sm'>Clique aqui e assine</button>
+                    </div>
+
 
                 </div>
 
